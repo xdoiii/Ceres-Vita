@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics - Ceres Vita</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
+    <link rel="stylesheet" href="../assets/css/analytics.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <svg class="logo-svg" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7Z" />
+            </svg>
+            <span class="logo-text">Ceres Vita</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Dashboard</a></li>
+            <li><a href="crops.html">Crops</a></li>
+            <li><a href="weather.html">Weather</a></li>
+            <li><a href="reports.html">Reports</a></li>
+            <li><a href="analytics.html" class="active">Analytics</a></li>
+        </ul>
+        <div class="user-profile">
+            <span class="user-name">John Doe</span>
+            <div class="profile-icon">JD</div>
+        </div>
+    </nav>
+
+    <div class="analytics-container">
+        <h2>Analytics Dashboard</h2>
+        <div class="tableau-embed">
+            <iframe
+                src="https://public.tableau.com/views/CDA7_DashboardAct/Dashboard?:showVizHome=no&:embed=true"
+                width="100%"
+                height="800"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
